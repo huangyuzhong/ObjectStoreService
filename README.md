@@ -7,5 +7,5 @@
 - 对外提供Restful API和SDK供用户使用
 
 ## v1.0架构
-![Image text](../imgs/framework.png)
+![Image text](imgs/framework.png)
 
