@@ -51,7 +51,9 @@ public class OSSDataSourceConfig {
         Set<Object> keys = properties.keySet();
         Properties dsProperties = new Properties();
         for (Object key : keys) {
-            dsProperties.put(key.toString().replace("datasource.",""), properties.get(key));
+            if (key.toString().startsWith("datasource")) {
+                dsProperties.put(key.toString().replace("datasource.", ""), properties.get(key));
+            }
         }
 
         // 2.通过HikariDataSourceFactory去生成一个datasource

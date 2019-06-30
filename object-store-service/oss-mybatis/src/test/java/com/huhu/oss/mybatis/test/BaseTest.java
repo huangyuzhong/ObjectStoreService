@@ -17,7 +17,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @Import(OSSDataSourceConfig.class)
 @PropertySource("classpath:application.properties")
-@ComponentScan("com.huhu.oss.*")
-@MapperScan("com.huhu.oss.*")
+@ComponentScan("com.huhu.*")
+@MapperScan("com.huhu.*")
 public class BaseTest {
 }
