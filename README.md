@@ -10,6 +10,12 @@
 ## 架构
 ![Image text](imgs/framework.png)
 
-## v1.0功能
+## v1.0功能概览
+- 用户管理
+- 权限管理
+
+## 模块划分
+- oss-core
+- oss-mybatis
 
 
